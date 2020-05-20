@@ -1,8 +1,8 @@
-setInterval(function(){
+// setInterval(function(){
             
-    var $icon=$('#mainicon');
-    $icon.toggleClass('fa-rotate-180'); 
-},700);
+//     var $icon=$('#mainicon');
+//     $icon.toggleClass('fa-rotate-180'); 
+// },700);
 
 function rotateLetter(d){
     $l=$("#mainLetter");

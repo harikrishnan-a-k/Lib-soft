@@ -4,13 +4,13 @@ html{
 }
 body{
     background-color: gainsboro;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .navbar{
-    background-color: rgb(65, 4, 165);
+    background :linear-gradient(to right, rgb(64, 2, 207), #8b0297);
 }
 .navbar.scrolled{
-    background: rgba(100, 2, 190, 0.85);
+    background: rgba(119, 1, 129, 0.85);
     transition: background 700ms;
 }
 .navbar-nav .nav-item .nav-link {
@@ -116,5 +116,21 @@ body{
     hr{
         margin-bottom: 5rem;
     }
+    body{
+        margin-bottom: 145px;
+    }
 
+}
+#mainicon{
+   
+    animation: iconRotate infinite 5s linear ;
+    
+}
+@keyframes iconRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
