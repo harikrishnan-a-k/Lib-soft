@@ -221,5 +221,16 @@ main {
     display: none;
 }
 
+.field-icon {
+  /* float: right; */
+  /* margin-left: -35px;
+  margin-top: 8px; */
+  position: absolute;
+  right: 45px;
+  top:18px;
+
+  
+  z-index: 2;
+}
 
 /* styles for stepper form end here */
